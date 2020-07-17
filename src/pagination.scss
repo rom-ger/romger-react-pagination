@@ -1,0 +1,108 @@
+$line-color: #eceff1;
+$default-border: 1px solid $line-color;
+$link-color: #0034a6;
+$secondary-color: #75848b;
+$primary-color: #23282b;
+
+.pagination-custom {
+  padding: 12px 0;
+
+  &__current-page-range {
+    margin-right: 24px;
+    padding: 12px 0;
+  }
+
+  &__wrapper {
+    border-top: $default-border;
+    border-bottom: $default-border;
+    overflow: auto;
+
+    &--without-border {
+      border: 0;
+    }
+  }
+
+  &__pagination-item {
+    margin-right: 12px;
+    cursor: pointer;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+
+  &__ellipsis {
+    cursor: pointer;
+  }
+
+  &__page-number {
+    cursor: pointer;
+
+    &--selected {
+      color: $secondary-color;
+    }
+  }
+
+  &__prev-page,
+  &__next-page {
+    height: 21px;
+    cursor: pointer;
+
+    .pagination-icon {
+      position: relative;
+      top: -2px;
+      color: $primary-color !important;
+      fill: $primary-color !important;
+      width: 24px!important;
+      min-width: 24px!important;
+      max-width: 24px!important;
+      height: 24px!important;
+      min-height: 24px!important;
+      max-height: 24px!important;
+      cursor: pointer;
+
+      &:hover {
+        color: $link-color;
+        fill: $link-color;
+      }
+    }
+  }
+
+  &__page-size-wrapper {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  &__page-size-title {
+    margin-right: 4px;
+  }
+
+  &__page-size-modal-wrap {
+    padding: 24px 12px;
+  }
+
+  &__page-size-modal-input {
+    margin-bottom: 12px;
+
+    .input-block {
+      margin-bottom: 0;
+    }
+  }
+
+  &__page-size-modal-item {
+    padding: 6px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border: 1px solid #fff;
+
+    &--selected {
+      border: $default-border;
+      border-radius: 4px;
+    }
+  }
+}

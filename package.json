@@ -1,0 +1,55 @@
+{
+  "name": "@romger/react-pagination",
+  "version": "1.0.0",
+  "description": "@romger/react-pagination",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rom-ger/romger-react-pagination"
+  },
+  "author": "Romger",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "dependencies": {
+    "@romger/react-flex-layout": "1.0.0",
+    "@types/react": "16.9.5",
+    "classnames": ">=2.2.5",
+    "eslint-plugin-react": "7.19.0",
+    "react": "16.8.6",
+    "react-ultimate-pagination": ">=1.2.0",
+    "@romger/react-input": "1.0.2",
+    "@romger/react-modal-dialog": "1.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.8.7",
+    "@babel/preset-react": "7.8.3",
+    "babel-eslint": "8.2.2",
+    "babel-preset-es2015": "6.24.0",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-0": "6.24.1",
+    "classnames": "2.2.5",
+    "del": "3.0.0",
+    "gulp": "4.0.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-babel": "7.0.1",
+    "gulp-clean-css": "4.2.0",
+    "gulp-concat": "2.6.1",
+    "gulp-eslint": "4.0.2",
+    "gulp-load-plugins": "1.5.0",
+    "gulp-sass": "2.3.2",
+    "gulp-sourcemaps": "2.5.0",
+    "gulp-uglify": "1.5.4",
+    "gulp-util": "3.0.8",
+    "vinyl-buffer": "1.0.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}
